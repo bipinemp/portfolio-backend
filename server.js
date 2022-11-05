@@ -12,7 +12,7 @@ const app = express();
 app.use(express.json());
 app.use(
   cors({
-    origin: ["http://localhost:5000", "https://bipinbhandari.onrender.com"],
+    origin: ["http://localhost:5000", "https://bipinbhandari.onrender.com/"],
   })
 );
 
